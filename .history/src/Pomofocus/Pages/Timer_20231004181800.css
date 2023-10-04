@@ -1,0 +1,214 @@
+.mainTimerClass {
+    width: 100%;
+    height: fit-content !important;
+
+
+}
+
+.secondClass {
+    /* width: 100%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clockContainer {
+    width: 65vh;
+
+}
+
+.timerComponent {
+    background: rgb(255, 255, 255, 0.1);
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+    padding: 6vh;
+}
+
+.inlintbtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.breakbtn {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 2px;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    width: auto;
+    border: none;
+}
+
+
+
+.timer {
+    font-size: xxx-large;
+    font-weight: bold;
+    width: auto;
+    font-family: 'Bowlby One', cursive;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.startstopbtn {
+    background: white;
+    color: rgb(134, 134, 134);
+    font-weight: bold;
+    font-size: 5vh;
+    width: 100%;
+    margin: 2px;
+    border-radius: 5px;
+    border: none;
+}
+
+.title {
+
+    font-size: 4vh;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    /* width: 100%; */
+
+}
+
+.line {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerContaine {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerBtn {
+    font-size: 15px;
+    display: inline-flex;
+    margin: 5px;
+    /* width: 100%; */
+}
+
+.darkbtn {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+    display: flex;
+    /* width: 100%; */
+}
+
+.btnname {
+    bo
+}
+
+@media (max-width : 500px) {
+    .btnname {
+        display: none;
+    }
+
+
+    .timer {
+        font-size: xxx-large;
+    }
+
+    .clockContainer {
+        width: auto;
+    }
+
+}
+
+
+.breakTimeNumber {
+    color: white;
+    margin-top: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.taskbtncontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.taskbtn {
+    background: rgb(0, 0, 0, 0.2);
+    color: white;
+    font-size: 18px;
+    border: 1px dashed rgb(255, 255, 255, 0.5);
+    width: auto 0px 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.taskdialogContainer {
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+}
+
+.deletebtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.datatxt {
+    width: 55vh;
+}
+
+.deletebtn {
+    background-color: rgb(134, 134, 134);
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+}
+
+.deletebtn:hover {
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+}
+
+.dialogContain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dialogSwitch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loadinglogo {
+    display: flex;
+    justify-content: center;
+
+}
+
+@media (max-width : 600px) {
+    .timer {
+        font-size: 20px;
+    }
+}

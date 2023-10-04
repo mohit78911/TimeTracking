@@ -1,0 +1,81 @@
+.mainTimerClass {
+    background-color: rgb(186, 73, 73);
+    height: 90vh;
+}
+
+.timerComponent {
+    background: rgb(255, 255, 255, 0.1);
+    width: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+    padding: 5vh;
+}
+
+.timer {
+    font-size: 20vh;
+    font-weight: bold;
+}
+
+.buttons {
+
+    display: flex;
+    justify-content: center;
+}
+
+.startstopbtn {
+    background: white;
+    color: transparent;
+    font-weight: bold;
+    font-size: 5vh;
+    width: 19vh;
+     margin: 2px;
+    border-radius: 5px;
+}
+
+.title {
+
+    font-size: 4vh;
+    color: white;
+    font-weight: bold;
+
+}
+
+.line {
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerContaine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerBtn {
+
+    display: inline-flex;
+    margin: 5px;
+}
+
+.darkbtn {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+    display: flex;
+}
+
+.breakbtn {
+    background: rgb(0, 0, 0, 0.1);
+    margin: 2px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}

@@ -1,0 +1,94 @@
+.addtaskinput {
+    border: none;
+    margin: 20px;
+}
+
+.addtaskinput:focus {
+    outline: none;
+}
+
+.tableoftask {
+    width: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabledata {
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.tableContainer {
+    width: auto;
+}
+
+.countData {
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+    width: 30%;
+    padding: 15px;
+    margin-top: 10px;
+    background: rgb(255, 255, 255, 0.2);
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width : 500px) {
+    .countData {
+        width: auto;
+    }
+
+    .tableoftask {
+        width: auto;
+    }
+    .taskcontainer{
+        width: 50vh;
+    }
+}
+
+.transbtn {
+    background: transparent;
+}
+
+.backSection {
+    background: rgb(255, 255, 255, 0.3);
+    width: 100%;
+}
+
+.taskcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 27%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dataAddInputBox {
+    width: auto;
+}
+
+.taskNameLogo {
+    color: white;
+}
+
+.secondLine {
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.DialogContainer {
+    width: -webkit-fill-available;
+}

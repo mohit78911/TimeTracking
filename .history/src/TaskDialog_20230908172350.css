@@ -1,0 +1,17 @@
+.addtaskinput {
+    border: none;
+    margin: 20px;
+}
+
+.addtaskinput:focus {
+    outline: none;
+}
+
+.tableoftask {
+
+}
+
+.tabledata {
+color: white;
+background: ;
+}

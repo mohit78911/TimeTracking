@@ -1,0 +1,6 @@
+.addtaskinput{
+    border: none;
+}
+.addtaskinput:focus{
+    outline: none;
+}

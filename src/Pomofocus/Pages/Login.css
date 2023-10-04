@@ -1,0 +1,91 @@
+.mainlogincontainer {
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.titlelogo {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8vh;
+    cursor: pointer;
+    
+}
+
+.logo {
+    width: 400px;
+}
+
+.pomofocus {
+    font-family: 'Bungee', cursive;
+}
+
+.logintxt {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.loginContainer {
+    margin: 5vh;
+    border-radius: 8px;
+    padding: 20px;
+    display: inline-block;
+    border: 2px solid white;
+    width:64vh;
+    background-color: rgb(255, 255, 255);
+    color: black;
+        
+}
+@media (max-width : 600px){
+    .loginContainer{
+        width: -webkit-fill-available;
+    }
+    .titlelogo{
+        font-size: 100%;
+    }
+}
+input {
+    margin: 20px 0px;
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.googleLogin {
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.googlebtn {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 450;
+}
+
+.formControl {}
+
+.linkbtn {
+    color: black;
+    opacity: 0.5;
+}
+
+.labeltext {
+    text-align: left !important;
+}
